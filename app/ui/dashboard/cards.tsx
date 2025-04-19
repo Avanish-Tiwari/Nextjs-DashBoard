@@ -6,6 +6,9 @@ import {
 } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 
+import { fetchCardData } from '@/app/lib/data';
+
+
 const iconMap = {
   collected: BanknotesIcon,
   customers: UserGroupIcon,
@@ -13,7 +16,6 @@ const iconMap = {
   invoices: InboxIcon,
 };
 
-import { fetchCardData } from '@/app/lib/data';
 
 
 
